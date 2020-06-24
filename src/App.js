@@ -144,7 +144,11 @@ class App extends React.Component {
       <div className="App">
         <div className="ipod">
           <MenuList />
-          <Control rotate={this.handleRotation} homeScreen={this.homeScreen} option={this.handleClick} />
+          <Control 
+            rotate={this.handleRotation}
+            homeScreen={this.homeScreen}
+            option={this.handleClick} 
+          />
         </div>
       </div>
     );
